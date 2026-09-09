@@ -19,7 +19,7 @@
   },
   "analytics": {
     "enabled": false,
-    "provider": "goatcounter",
+    "provider": "google",
     "site": ""
   },
   "theme": {

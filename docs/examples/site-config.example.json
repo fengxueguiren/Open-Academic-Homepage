@@ -19,8 +19,8 @@
   },
   "analytics": {
     "enabled": false,
-    "provider": "goatcounter",
-    "site": "YOUR_CODE_OR_DOMAIN"
+    "provider": "google",
+    "site": "G-XXXXXXXXXX"
   },
   "theme": {
     "default": "burgundy",

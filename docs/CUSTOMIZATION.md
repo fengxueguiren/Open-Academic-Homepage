@@ -258,12 +258,17 @@ English content lives in `content/site-content.json`; Chinese content lives in
 ```json
 "analytics": {
   "enabled": false,
-  "provider": "goatcounter",
-  "site": "YOUR_CODE_OR_DOMAIN"
+  "provider": "google",
+  "site": "G-XXXXXXXXXX"
 }
 ```
 
-`goatcounter` uses your GoatCounter code; `plausible` uses the site domain.
+Providers:
+
+- `google` — Google Analytics 4. Put your GA4 Measurement ID
+  (e.g. `G-XXXXXXXXXX`) in `site`, then set `enabled` to `true`.
+- `goatcounter` — put your GoatCounter code in `site` (default provider).
+- `plausible` — put your site domain in `site`.
 
 ---
 

@@ -1693,17 +1693,33 @@
     function applyAnalytics(config) {
       const analytics = config && config.analytics;
       if (!analytics || analytics.enabled !== true || !analytics.site) return;
-      const script = document.createElement("script");
-      script.async = true;
-      if (analytics.provider === "plausible") {
-        script.src = "https://plausible.io/js/script.js";
-        script.dataset.domain = analytics.site;
+
+      if (analytics.provider === "google" || analytics.provider === "gtag" || analytics.provider === "ga4") {
+        // Google Analytics 4 via gtag.js
+        const measurementId = analytics.site;
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { window.dataLayer.push(arguments); }
+        window.gtag = gtag;
+        gtag("js", new Date());
+        gtag("config", measurementId);
+
+        const loader = document.createElement("script");
+        loader.async = true;
+        loader.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
+        document.head.appendChild(loader);
       } else {
-        // Default: GoatCounter (privacy-friendly)
-        script.src = "https://gc.zgo.at/count.js";
-        script.dataset.goatcounter = `https://${analytics.site}.goatcounter.com/count`;
+        const script = document.createElement("script");
+        script.async = true;
+        if (analytics.provider === "plausible") {
+          script.src = "https://plausible.io/js/script.js";
+          script.dataset.domain = analytics.site;
+        } else {
+          // Default: GoatCounter (privacy-friendly)
+          script.src = "https://gc.zgo.at/count.js";
+          script.dataset.goatcounter = `https://${analytics.site}.goatcounter.com/count`;
+        }
+        document.head.appendChild(script);
       }
-      document.head.appendChild(script);
     }
 
     function resolveLanguage(config) {
