@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+  <defs>
+    <linearGradient id="paperBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b84368"/>
+      <stop offset="100%" stop-color="#9d3656"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" rx="12" fill="url(#paperBg)" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Flow Diagram Illustration -->
+  <rect x="36" y="80" width="80" height="80" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="48" y="94" width="40" height="8" rx="4" fill="#94a3b8"/>
+  <rect x="48" y="110" width="56" height="6" rx="3" fill="#cbd5e1"/>
+  <rect x="48" y="122" width="48" height="6" rx="3" fill="#cbd5e1"/>
+  <circle cx="96" cy="144" r="6" fill="url(#accentGrad)"/>
+
+  <!-- Arrow 1 -->
+  <path d="M126 120 L154 120" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <polygon points="158,120 152,116 152,124" fill="#94a3b8"/>
+
+  <!-- Center Core Block -->
+  <rect x="164" y="65" width="100" height="110" rx="12" fill="#ffffff" stroke="url(#accentGrad)" stroke-width="2"/>
+  <rect x="180" y="85" width="68" height="10" rx="5" fill="url(#accentGrad)"/>
+  <rect x="180" y="105" width="60" height="7" rx="3.5" fill="#cbd5e1"/>
+  <rect x="180" y="119" width="68" height="7" rx="3.5" fill="#cbd5e1"/>
+  <rect x="180" y="133" width="52" height="7" rx="3.5" fill="#cbd5e1"/>
+  <rect x="180" y="147" width="40" height="7" rx="3.5" fill="#e2e8f0"/>
+
+  <!-- Arrow 2 -->
+  <path d="M274 120 L302 120" stroke="#94a3b8" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3"/>
+  <polygon points="306,120 300,116 300,124" fill="#94a3b8"/>
+
+  <!-- Output Block -->
+  <rect x="312" y="80" width="60" height="80" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="342" cy="110" r="14" fill="#fdf2f6" stroke="url(#accentGrad)" stroke-width="2"/>
+  <path d="M337 110 L341 114 L348 106" stroke="url(#accentGrad)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="324" y="136" width="36" height="6" rx="3" fill="#94a3b8"/>
+
+  <!-- Legend Text / Subtitle -->
+  <text x="200" y="206" text-anchor="middle" font-family="-apple-system, system-ui, sans-serif" font-size="12" font-weight="600" fill="#64748b" letter-spacing="0.04em">METHOD / PIPELINE OVERVIEW</text>
+</svg>

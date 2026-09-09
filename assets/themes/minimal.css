@@ -1,0 +1,178 @@
+/* ==========================================================================
+   MINIMAL THEME
+   Flat, quiet, editorial: white space + hairline borders, sans headings.
+   Applied when <body data-theme="minimal">.
+   ========================================================================== */
+
+body[data-theme="minimal"] {
+  --font-heading: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --primary-text: #111827;
+  --secondary-text: #374151;
+  --muted-text: #6b7280;
+
+  --accent-color: #111827;
+  --accent-hover: #374151;
+  --accent-bg: #f3f4f6;
+  --accent-border: #d1d5db;
+  --link-color: #111827;
+
+  --border-color: #d1d5db;
+  --border-light: #e5e7eb;
+  --bg-page: #ffffff;
+  --card-bg: #ffffff;
+  --card-inner-bg: #ffffff;
+  --callout-bg: #f9fafb;
+  --callout-border: #e5e7eb;
+  --callout-text: #1f2937;
+
+  --glow-a: 0, 0, 0;
+  --glow-b: 0, 0, 0;
+  --glow-c: 0, 0, 0;
+}
+
+body[data-theme="minimal"] {
+  background-image: none;
+}
+
+body[data-theme="minimal"] .site-nav {
+  background: rgba(255, 255, 255, 0.95);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .nav-links a.active {
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .theme-toggle {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .lang-select,
+body[data-theme="minimal"] .paper-search,
+body[data-theme="minimal"] .paper-no-results {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .paper-row-year {
+  border-radius: 2px;
+}
+
+body[data-theme="minimal"] .paper-venue-corner {
+  border-radius: 2px;
+}
+
+body[data-theme="minimal"] .journal-chip,
+body[data-theme="minimal"] .workshop-item {
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .grants-item,
+body[data-theme="minimal"] .grants-type {
+  border-radius: 2px;
+}
+
+body[data-theme="minimal"] .main-container {
+  background: #ffffff;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid #e5e7eb;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .profile-header {
+  border-bottom-color: #e5e7eb;
+}
+
+body[data-theme="minimal"] .profile-avatar {
+  border-radius: 10px;
+  border-color: #e5e7eb;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .section-title {
+  border-bottom-color: #d1d5db;
+}
+
+body[data-theme="minimal"] .quick-link {
+  border-radius: 4px;
+  background: #ffffff;
+  border-color: #d1d5db;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .modern-list-date {
+  border-radius: 4px;
+}
+
+body[data-theme="minimal"] .collab-callout {
+  border-radius: 0;
+  border-left: 2px solid #111827;
+}
+
+body[data-theme="minimal"] .paper-card,
+body[data-theme="minimal"] .exp-card,
+body[data-theme="minimal"] .mini-card,
+body[data-theme="minimal"] .service-tile {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .paper-card:hover,
+body[data-theme="minimal"] .exp-card:hover,
+body[data-theme="minimal"] .mini-card:hover,
+body[data-theme="minimal"] .service-tile:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+body[data-theme="minimal"] .paper-image-container {
+  border-radius: 0;
+}
+
+body[data-theme="minimal"] .paper-btn,
+body[data-theme="minimal"] .paper-toggle-btn,
+body[data-theme="minimal"] .paper-toggle {
+  border-radius: 2px;
+}
+
+body[data-theme="minimal"] .paper-btn-primary {
+  background: #111827;
+  border-color: #111827;
+}
+
+body[data-theme="minimal"] .paper-btn-primary:hover {
+  background: #374151;
+  border-color: #374151;
+}
+
+body[data-theme="minimal"] .conf-badge,
+body[data-theme="minimal"] .ccf-badge,
+body[data-theme="minimal"] .tag-badge,
+body[data-theme="minimal"] .metric-badge {
+  border-radius: 2px;
+}
+
+body[data-theme="minimal"] .paper-detail {
+  background: #f9fafb;
+  border-radius: 0;
+}
+
+body[data-theme="minimal"] .bib-modal-box {
+  border-radius: 0;
+}
+
+body[data-theme="minimal"] .bib-pre {
+  border-radius: 0;
+}
+
+body[data-theme="minimal"] .service-tile .tile-year-pill {
+  border-radius: 2px;
+}

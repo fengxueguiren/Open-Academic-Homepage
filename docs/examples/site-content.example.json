@@ -1,0 +1,139 @@
+{
+  "about": {
+    "title": "🌟 About Me",
+    "paragraphs": [
+      "Hello! I am **Your Name (中文姓名)**, a Ph.D. candidate in Computer Science at [University Name](https://www.university.edu/), advised by Prof. [Advisor Name](https://advisor-homepage.example.com/). I work on ...",
+      "My research interests span the following areas:"
+    ],
+    "points": [
+      {
+        "label": "Research Area 1",
+        "description": "Short description of this research direction."
+      },
+      {
+        "label": "Research Area 2",
+        "description": "Short description of this research direction."
+      }
+    ],
+    "note": "📬 Please feel free to send me an email if you are interested in discussing or working together: [you@example.edu](mailto:you@example.edu)."
+  },
+  "news": {
+    "title": "🔥 News",
+    "items": [
+      { "date": "2026.04", "text": "One paper was accepted at **IEEE TMM**." },
+      { "date": "2025.11", "text": "One paper was accepted at **AAAI 2026**." },
+      { "date": "2024.10", "text": "One paper was accepted for **oral presentation** at AAAI 2025." }
+    ]
+  },
+  "workingPapers": {
+    "title": "Working Papers",
+    "items": [
+      {
+        "title": "Example Working Paper Title",
+        "authors": [
+          { "name": "Your Name", "equal": true },
+          { "name": "Coauthor", "equal": true },
+          { "name": "Advisor" }
+        ],
+        "status": "Under review at XXXX 2026 · Preprint on arXiv"
+      }
+    ]
+  },
+  "experience": {
+    "title": "💻 Experience",
+    "items": [
+      {
+        "title": "Research Scientist Intern",
+        "date": "Jun. 2025 - Sep. 2025",
+        "organization": "Example Company · Research Team",
+        "logo": "images/org-placeholder.svg",
+        "logoAlt": "Example Company Logo",
+        "description": "Worked on ..."
+      }
+    ]
+  },
+  "education": {
+    "title": "📖 Education",
+    "items": [
+      {
+        "title": "Ph.D. in Computer Science",
+        "date": "2023 - Present",
+        "organization": "University Name",
+        "description": "Advised by Prof. Advisor Name. Focus: ..."
+      },
+      {
+        "title": "B.S. in Computer Science",
+        "date": "2019 - 2023",
+        "organization": "Previous University Name",
+        "description": "Description..."
+      }
+    ]
+  },
+  "honors": {
+    "title": "🏅 Honors and Awards",
+    "items": [
+      { "date": "2025.10", "text": "Excellent Graduate Student of University Name" },
+      { "date": "2024.06", "text": "National Scholarship" }
+    ]
+  },
+  "services": {
+    "title": "🤝 Academic Services",
+    "conferenceHeading": "Conference Reviewer",
+    "conferences": [
+      { "name": "AAAI", "years": ["2027", "2026"], "fullName": "AAAI Conference on Artificial Intelligence" },
+      { "name": "ACM MM", "years": ["2024"], "fullName": "ACM Multimedia" }
+    ],
+    "other": [
+      {
+        "type": "journal",
+        "title": "Journal Reviewer",
+        "items": [
+          { "name": "Pattern Recognition", "abbr": "PR", "url": "https://www.sciencedirect.com/journal/pattern-recognition" },
+          { "name": "Neural Networks", "abbr": "NN" }
+        ]
+      },
+      {
+        "type": "workshop",
+        "title": "Workshop Organization",
+        "items": [
+          {
+            "name": "Example Workshop on Embodied Intelligence",
+            "role": "Co-organizer",
+            "venue": "CVPR 2025",
+            "year": "2025"
+          }
+        ]
+      }
+    ]
+  },
+  "grants": {
+    "title": "🏆 Grants & Funded Projects",
+    "items": [
+      {
+        "type": "grant",
+        "title": "Example Funded Research Project",
+        "role": "Co-Principal Investigator",
+        "funder": "National Natural Science Foundation of China",
+        "grantNumber": "00000000",
+        "period": "2024 - 2027",
+        "amount": "¥500,000",
+        "status": "在研",
+        "url": "https://project-page.example.com/"
+      },
+      {
+        "type": "project",
+        "title": "Example Industry Collaboration",
+        "role": "Participant",
+        "funder": "Example Company",
+        "period": "2022 - 2024",
+        "status": "Completed"
+      }
+    ]
+  },
+  "teaching": {
+    "title": "📚 Teaching Assistantships",
+    "items": [
+      { "date": "Spring 2025", "text": "CS000: Introduction to Computer Vision (TA)" }
+    ]
+  }
+}

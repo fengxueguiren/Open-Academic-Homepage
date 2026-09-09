@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "Quanmin Wei's Homepage",
+    "description": "Personal academic homepage of Quanmin Wei, Ph.D. candidate in Computer Science at Southwest Jiaotong University.",
+    "author": "Quanmin Wei",
+    "ownerName": "Quanmin Wei",
+    "navBrand": "Quanmin Wei's Homepage",
+    "footerName": "Quanmin Wei",
+    "showTemplateCredit": true,
+    "showLastUpdated": true,
+    "lastUpdated": "",
+    "url": "https://your-username.github.io/",
+    "ogImage": "images/og-image.png"
+  },
+  "language": {
+    "default": "en",
+    "available": ["en", "zh"],
+    "switchable": true
+  },
+  "analytics": {
+    "enabled": false,
+    "provider": "goatcounter",
+    "site": ""
+  },
+  "theme": {
+    "default": "burgundy",
+    "switchable": true,
+    "options": ["burgundy", "academic-blue", "forest-green", "slate", "minimal", "academic-paper", "terminal", "pixel"],
+    "stylesheets": {
+      "minimal": "assets/themes/minimal.css",
+      "academic-paper": "assets/themes/academic-paper.css",
+      "terminal": "assets/themes/terminal.css",
+      "pixel": "assets/themes/pixel.css"
+    },
+    "fonts": {
+      "terminal": "https://fonts.googleapis.com/css2?family=VT323&display=swap",
+      "pixel": "https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+    }
+  },
+  "publicationsView": {
+    "mode": "cards"
+  },
+  "sections": [
+    { "id": "profile", "enabled": true, "inNav": false },
+    { "id": "about", "label": "About", "enabled": true, "inNav": true },
+    { "id": "news", "label": "News", "enabled": true, "inNav": true },
+    { "id": "publications", "label": "Publications", "enabled": true, "inNav": true },
+    { "id": "grants", "label": "Grants & Projects", "enabled": false, "inNav": false },
+    { "id": "working-papers", "label": "Working Papers", "enabled": false, "inNav": false },
+    { "id": "experience", "label": "Experience", "enabled": false, "inNav": false },
+    { "id": "education", "label": "Education", "enabled": true, "inNav": true },
+    { "id": "honors", "label": "Honors", "enabled": true, "inNav": true },
+    { "id": "services", "label": "Services", "enabled": true, "inNav": true },
+    { "id": "teaching", "label": "Teaching", "enabled": false, "inNav": false }
+  ]
+}

@@ -1,0 +1,306 @@
+/* ==========================================================================
+   TERMINAL THEME
+   Green-phosphor terminal: near-black background, scanlines, mono text and
+   square UI. Applied when <body data-theme="terminal">.
+   ========================================================================== */
+
+body[data-theme="terminal"] {
+  --font-body: "VT323", "Courier New", monospace;
+  --font-heading: "VT323", "Courier New", monospace;
+  --primary-text: #c9f5cd;
+  --secondary-text: #9acda4;
+  --muted-text: #5f8a6a;
+
+  --accent-color: #00ff41;
+  --accent-hover: #59ff8a;
+  --accent-bg: #071a0d;
+  --accent-border: #1f7a3f;
+  --link-color: #3fa9ff;
+
+  --border-color: #2f8a52;
+  --border-light: #123d22;
+  --bg-page: #020502;
+  --card-bg: #060d08;
+  --card-inner-bg: #060d08;
+  --callout-bg: #0a1420;
+  --callout-border: #1c4d78;
+  --callout-text: #bfe3ff;
+
+  --glow-a: 0, 255, 65;
+  --glow-b: 63, 169, 255;
+  --glow-c: 0, 255, 65;
+}
+
+body[data-theme="terminal"] {
+  font-size: 18px;
+  line-height: 1.55;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(0, 255, 65, 0.028) 0px, rgba(0, 255, 65, 0.028) 1px, transparent 1px, transparent 3px),
+    radial-gradient(at 50% -15%, rgba(0, 255, 65, 0.07) 0px, transparent 58%);
+  background-size: 100% 100%, 100% 100%;
+  background-attachment: fixed, fixed;
+}
+
+body[data-theme="terminal"] .site-nav {
+  background: rgba(4, 8, 5, 0.98);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid #00ff41;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 rgba(0, 255, 65, 0.12);
+}
+
+body[data-theme="terminal"] .nav-brand {
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1.15rem;
+  letter-spacing: 0.04em;
+}
+
+body[data-theme="terminal"] .nav-links a {
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+body[data-theme="terminal"] .nav-links a:hover {
+  background: rgba(0, 255, 65, 0.1);
+}
+
+body[data-theme="terminal"] .nav-links a.active {
+  background: #00ff41;
+  color: #020502;
+  box-shadow: none;
+}
+
+body[data-theme="terminal"] .theme-toggle,
+body[data-theme="terminal"] .lang-select,
+body[data-theme="terminal"] .paper-search {
+  border: 1px solid #00ff41;
+  border-radius: 0;
+  background: #020502;
+  color: #00ff41;
+  box-shadow: none;
+  font-family: "VT323", "Courier New", monospace;
+}
+
+body[data-theme="terminal"] .theme-toggle:hover,
+body[data-theme="terminal"] .lang-select:hover,
+body[data-theme="terminal"] .paper-search:focus {
+  background: #071a0d;
+}
+
+body[data-theme="terminal"] .lang-select option,
+body[data-theme="terminal"] .paper-search {
+  background: #020502;
+  color: #00ff41;
+}
+
+body[data-theme="terminal"] .main-container {
+  background: rgba(6, 13, 8, 0.98);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid #1f7a3f;
+  border-radius: 0;
+  box-shadow: 5px 5px 0 rgba(0, 255, 65, 0.08);
+}
+
+body[data-theme="terminal"] .profile-header {
+  border-bottom: 1px solid #00ff41;
+}
+
+body[data-theme="terminal"] .profile-avatar {
+  border: 2px solid #00ff41;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 rgba(0, 255, 65, 0.14);
+}
+
+body[data-theme="terminal"] .profile-name,
+body[data-theme="terminal"] .section-title,
+body[data-theme="terminal"] .subsection-title,
+body[data-theme="terminal"] .paper-title,
+body[data-theme="terminal"] .exp-title,
+body[data-theme="terminal"] .mini-card-title,
+body[data-theme="terminal"] .paper-row-title {
+  font-family: "VT323", "Courier New", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+body[data-theme="terminal"] .profile-name {
+  font-size: 1.65rem;
+}
+
+body[data-theme="terminal"] .section-title {
+  font-size: 1.05rem;
+  border-bottom: 1px solid #00ff41;
+}
+
+body[data-theme="terminal"] .subsection-title {
+  font-size: 0.9rem;
+}
+
+body[data-theme="terminal"] .paper-title,
+body[data-theme="terminal"] .mini-card-title {
+  font-size: 1rem;
+}
+
+body[data-theme="terminal"] .exp-title,
+body[data-theme="terminal"] .paper-row-title {
+  font-size: 1.05rem;
+}
+
+body[data-theme="terminal"] .quick-link,
+body[data-theme="terminal"] .modern-list-date,
+body[data-theme="terminal"] .paper-btn,
+body[data-theme="terminal"] .paper-toggle,
+body[data-theme="terminal"] .paper-toggle-btn,
+body[data-theme="terminal"] .paper-image-container,
+body[data-theme="terminal"] .paper-detail,
+body[data-theme="terminal"] .bib-modal-box,
+body[data-theme="terminal"] .bib-pre,
+body[data-theme="terminal"] .bib-modal-close {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body[data-theme="terminal"] .quick-link {
+  border: 1px solid #2f8a52;
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+body[data-theme="terminal"] .quick-link:hover {
+  border-color: #00ff41;
+  background: #071a0d;
+}
+
+body[data-theme="terminal"] .paper-card,
+body[data-theme="terminal"] .exp-card,
+body[data-theme="terminal"] .mini-card,
+body[data-theme="terminal"] .service-tile {
+  background: #060d08;
+  border: 1px solid #1f7a3f;
+  border-radius: 0;
+  box-shadow: 3px 3px 0 rgba(0, 255, 65, 0.08);
+}
+
+body[data-theme="terminal"] .paper-card:hover,
+body[data-theme="terminal"] .exp-card:hover,
+body[data-theme="terminal"] .mini-card:hover,
+body[data-theme="terminal"] .service-tile:hover {
+  border-color: #00ff41;
+  box-shadow: 4px 4px 0 rgba(0, 255, 65, 0.1);
+}
+
+body[data-theme="terminal"] .mini-card {
+  border-left: 3px solid #00ff41;
+}
+
+body[data-theme="terminal"] .paper-image-container img,
+body[data-theme="terminal"] .profile-avatar {
+  image-rendering: pixelated;
+}
+
+body[data-theme="terminal"] .paper-btn {
+  background: #020502;
+  border: 1px solid #2f8a52;
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+body[data-theme="terminal"] .paper-btn:hover {
+  background: #071a0d;
+  border-color: #00ff41;
+  color: #00ff41;
+}
+
+body[data-theme="terminal"] .paper-btn-primary {
+  background: #00ff41;
+  border-color: #00ff41;
+  color: #020502;
+}
+
+body[data-theme="terminal"] .paper-btn-primary:hover {
+  background: #59ff8a;
+  border-color: #59ff8a;
+  color: #020502;
+}
+
+body[data-theme="terminal"] .paper-btn-secondary {
+  border-color: #00ff41;
+  color: #00ff41;
+}
+
+body[data-theme="terminal"] .paper-toggle {
+  background: #020502;
+}
+
+body[data-theme="terminal"] .paper-toggle-btn.is-active {
+  background: #00ff41;
+  color: #020502;
+  box-shadow: none;
+}
+
+body[data-theme="terminal"] .conf-badge,
+body[data-theme="terminal"] .ccf-badge,
+body[data-theme="terminal"] .tag-badge,
+body[data-theme="terminal"] .metric-badge,
+body[data-theme="terminal"] .tile-year-pill,
+body[data-theme="terminal"] .paper-row-year {
+  border-radius: 0;
+}
+
+body[data-theme="terminal"] .paper-venue-corner {
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  color: #00ff41;
+  text-transform: uppercase;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.9), 0 1px 2px rgba(0, 0, 0, 0.65);
+}
+
+body[data-theme="terminal"] .journal-chip,
+body[data-theme="terminal"] .workshop-item {
+  background: #020502;
+  border: 1px solid #2f8a52;
+  border-radius: 0;
+  box-shadow: none;
+  color: #00ff41;
+}
+
+body[data-theme="terminal"] .grants-item,
+body[data-theme="terminal"] .grants-type {
+  border-radius: 0;
+}
+
+body[data-theme="terminal"] .journal-chip:hover {
+  background: #071a0d;
+  border-color: #00ff41;
+}
+
+body[data-theme="terminal"] .workshop-item {
+  border-left: 3px solid #00ff41;
+}
+
+body[data-theme="terminal"] .paper-detail {
+  background: #020b06;
+  border-left: 3px solid #00ff41;
+}
+
+body[data-theme="terminal"] .collab-callout {
+  border: 1px solid #1c4d78;
+  border-left: 3px solid #3fa9ff;
+  border-radius: 0;
+}
+
+body[data-theme="terminal"] .bib-modal-box {
+  border: 1px solid #00ff41;
+}
+
+body[data-theme="terminal"] .bib-modal-head {
+  border-bottom: 1px solid #1f7a3f;
+}

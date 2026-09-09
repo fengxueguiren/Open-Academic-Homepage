@@ -1,0 +1,92 @@
+{
+  "about": {
+    "title": "🌟 About Me",
+    "paragraphs": [
+      " Hello! I am Quanmin Wei (韦全敏), a fourth-year Ph.D. candidate in Computer Science and Technology at [Southwest Jiaotong University](https://swjtu.edu.cn/), where I am fortunate to be advised by Prof. [Penglin Dai](https://itsgroups.github.io/). I have published papers in leading conferences and journals, including AAAI 2026, AAAI 2025, NeurIPS 2025, TMM, TITS, and INS.",
+      
+      "My research lies at the intersection of computer vision and intelligent transportation, with a primary focus on the following areas:"
+    ],
+    "points": [
+      {
+        "label": "Autonomous Driving",
+        "description": "topics related to Collaborative Perception, and Cooperative Driving Automation."
+      },
+      {
+        "label": "Computer Vision",
+        "description": "topics related to 3D Object Detection."
+      }
+    ],
+    "note": "📬 Please feel free to send me an email if you are interested in discussing or working together. My email is [wqm@my.swjtu.edu.cn](mailto:wqm@my.swjtu.edu.cn)!"
+  },
+  "news": {
+    "title": "🔥 News",
+    "items": [
+      { "date": "2026.04", "text": "One paper has been accepted at IEEE Transactions on Multimedia (TMM)." },
+      { "date": "2025.11", "text": "One paper has been accepted at AAAI 2026." },
+      { "date": "2024.10", "text": "One paper has been accepted for **oral presentation** at AAAI 2025." }
+    ]
+  },
+  "workingPapers": {
+    "title": "Working Papers",
+    "items": []
+  },
+  "experience": {
+    "title": "💻 Experience",
+    "items": []
+  },
+  "education": {
+    "title": "📖 Education",
+    "items": [
+      {
+        "title": "Ph.D. in Computer Science",
+        "date": "2023 - Present",
+        "organization": "Southwest Jiaotong University",
+        "description": "Advised by Prof. Penglin Dai. Focus: Collaborative Perception, 3D Vision, Autonomous Driving."
+      }
+    ]
+  },
+  "honors": {
+    "title": "🏅 Honors and Awards",
+    "items": [
+      { "date": "2025.10", "text": "Excellent Graduate Student of Southwest Jiaotong University" },
+      { "date": "2025.07", "text": "Third Prize, Southwest Regional Division, Network Technology Challenge, China Collegiate Computing Contest"},
+      { "date":"2025.06", "text": "Outstanding Communist Party Member, 2023–2025 “Two Outstanding and One Advanced” Awards"},
+      { "date": "2023.03", "text": "Outstanding Graduating Graduate Student"},
+      { "date":"2020.12", "text": "First Prize, 2nd Guangxi Collegiate Artificial Intelligence Design Contest"},
+      { "date":"2019.03", "text": "‌Autonomous Region Government Encouragement Scholarship‌"},
+      { "date":"2018.07", "text": "Third Prize, 11nd China Information Security Contest for National College Students"},
+      { "date":"2018.05", "text": "Third Prize, 4nd CyberSpace Security Technology Contest"}
+    ]
+  },
+  "services": {
+    "title": "🤝 Academic Services",
+    "conferenceHeading": "Conference Reviewer",
+    "conferences": [
+      { "name": "AAAI", "years": ["2027", "2026"], "fullName": "AAAI Conference on Artificial Intelligence" },
+      { "name": "ACM MM", "years": ["2024"], "fullName": "ACM Multimedia" }
+    ],
+    "other": [
+      {
+        "type": "journal",
+        "title": "Journal Reviewer",
+        "items": [
+          { "name": "Pattern Recognition", "abbr": "PR" },
+          { "name": "Neural Networks", "abbr": "NN" },
+          { "name": "Knowledge and Information Systems", "abbr": "KAIS" },
+          { "name": "Journal of King Saud University Computer and Information Sciences", "abbr": "JKSU-CIS" },
+          { "name": "Discover Artificial Intelligence" },
+          { "name": "International Journal of Data Science and Analytics", "abbr": "IJDSA" },
+          { "name": "Cluster Computing" }
+        ]
+      }
+    ]
+  },
+  "grants": {
+    "title": "🏆 Grants & Funded Projects",
+    "items": []
+  },
+  "teaching": {
+    "title": "📚 Teaching Assistantships",
+    "items": []
+  }
+}

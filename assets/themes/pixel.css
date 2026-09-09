@@ -1,0 +1,341 @@
+/* ==========================================================================
+   PIXEL / RETRO GAME CONSOLE THEME
+   Bright arcade-console look: cream screen, chunky black outlines, hard
+   shadows and Press Start headings. Applied when <body data-theme="pixel">.
+   ========================================================================== */
+
+body[data-theme="pixel"] {
+  --font-body: "VT323", "Courier New", monospace;
+  --font-heading: "Press Start 2P", "Courier New", monospace;
+  --primary-text: #20263c;
+  --secondary-text: #46506b;
+  --muted-text: #747d96;
+
+  --accent-color: #e0313f;
+  --accent-hover: #ff5a5a;
+  --accent-bg: #ffe3e0;
+  --accent-border: #f2a7a0;
+  --link-color: #2456d6;
+
+  --border-color: #20263c;
+  --border-light: #cbd2e2;
+  --bg-page: #e9edf6;
+  --card-bg: #fffcf3;
+  --card-inner-bg: #fffcf3;
+  --callout-bg: #dce7ff;
+  --callout-border: #9db8f5;
+  --callout-text: #23305e;
+
+  --glow-a: 224, 49, 63;
+  --glow-b: 36, 86, 214;
+  --glow-c: 255, 210, 63;
+}
+
+body[data-theme="pixel"] {
+  font-size: 17px;
+  line-height: 1.55;
+  background-image:
+    linear-gradient(rgba(32, 38, 60, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(32, 38, 60, 0.045) 1px, transparent 1px);
+  background-size: 24px 24px, 24px 24px;
+}
+
+body[data-theme="pixel"] .site-nav {
+  background: rgba(255, 252, 243, 0.98);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 2px solid #20263c;
+  border-radius: 0;
+  box-shadow: 5px 5px 0 rgba(32, 38, 60, 0.16);
+}
+
+body[data-theme="pixel"] .nav-brand {
+  font-family: "Press Start 2P", "Courier New", monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.03em;
+}
+
+body[data-theme="pixel"] .nav-links a {
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+body[data-theme="pixel"] .nav-links a:hover {
+  background: rgba(224, 49, 63, 0.1);
+}
+
+body[data-theme="pixel"] .nav-links a.active {
+  background: #20263c;
+  color: #fffcf3;
+  box-shadow: none;
+}
+
+body[data-theme="pixel"] .theme-toggle,
+body[data-theme="pixel"] .lang-select,
+body[data-theme="pixel"] .paper-search {
+  border: 2px solid #20263c;
+  border-radius: 0;
+  background: #fffcf3;
+  color: #20263c;
+  box-shadow: 3px 3px 0 rgba(32, 38, 60, 0.14);
+}
+
+body[data-theme="pixel"] .theme-toggle:hover,
+body[data-theme="pixel"] .lang-select:hover,
+body[data-theme="pixel"] .paper-search:focus {
+  background: #ffe3e0;
+  color: #e0313f;
+}
+
+body[data-theme="pixel"] .lang-select option,
+body[data-theme="pixel"] .paper-search {
+  background: #fffcf3;
+  color: #20263c;
+}
+
+body[data-theme="pixel"] .main-container {
+  background: #fffcf3;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 3px solid #20263c;
+  border-radius: 0;
+  box-shadow: 8px 8px 0 rgba(32, 38, 60, 0.12);
+}
+
+body[data-theme="pixel"] .profile-header {
+  border-bottom: 3px solid #20263c;
+}
+
+body[data-theme="pixel"] .profile-avatar {
+  border: 3px solid #20263c;
+  border-radius: 0;
+  box-shadow: 5px 5px 0 rgba(32, 38, 60, 0.16);
+  image-rendering: pixelated;
+}
+
+body[data-theme="pixel"] .profile-name,
+body[data-theme="pixel"] .section-title,
+body[data-theme="pixel"] .subsection-title,
+body[data-theme="pixel"] .paper-title,
+body[data-theme="pixel"] .exp-title,
+body[data-theme="pixel"] .mini-card-title,
+body[data-theme="pixel"] .paper-row-title {
+  font-family: "Press Start 2P", "Courier New", monospace;
+  text-transform: uppercase;
+}
+
+body[data-theme="pixel"] .paper-venue-corner {
+  border-radius: 0;
+  border: 0;
+  background: transparent;
+  color: #fffcf3;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.9), 0 1px 2px rgba(0, 0, 0, 0.65);
+}
+
+body[data-theme="pixel"] .profile-name {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+body[data-theme="pixel"] .section-title {
+  font-size: 0.75rem;
+  line-height: 1.8;
+  border-bottom: 3px solid #20263c;
+}
+
+body[data-theme="pixel"] .subsection-title {
+  font-size: 0.58rem;
+}
+
+body[data-theme="pixel"] .paper-title {
+  font-size: 0.68rem;
+  line-height: 1.8;
+}
+
+body[data-theme="pixel"] .mini-card-title,
+body[data-theme="pixel"] .exp-title,
+body[data-theme="pixel"] .paper-row-title {
+  font-size: 0.6rem;
+  line-height: 1.9;
+}
+
+body[data-theme="pixel"] .profile-role,
+body[data-theme="pixel"] .profile-research,
+body[data-theme="pixel"] .hobby-text,
+body[data-theme="pixel"] .exp-date,
+body[data-theme="pixel"] .mini-card-status,
+body[data-theme="pixel"] .exp-desc,
+body[data-theme="pixel"] .paper-authors,
+body[data-theme="pixel"] .modern-list,
+body[data-theme="pixel"] .muted-note {
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1.02rem;
+}
+
+body[data-theme="pixel"] .quick-link,
+body[data-theme="pixel"] .modern-list-date,
+body[data-theme="pixel"] .paper-btn,
+body[data-theme="pixel"] .paper-toggle,
+body[data-theme="pixel"] .paper-toggle-btn,
+body[data-theme="pixel"] .paper-image-container,
+body[data-theme="pixel"] .paper-detail,
+body[data-theme="pixel"] .bib-modal-box,
+body[data-theme="pixel"] .bib-pre,
+body[data-theme="pixel"] .bib-modal-close {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+body[data-theme="pixel"] .quick-link {
+  border: 2px solid #20263c;
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+body[data-theme="pixel"] .quick-link:hover {
+  background: #ffe3e0;
+  border-color: #e0313f;
+  color: #e0313f;
+}
+
+body[data-theme="pixel"] .paper-card,
+body[data-theme="pixel"] .exp-card,
+body[data-theme="pixel"] .mini-card,
+body[data-theme="pixel"] .service-tile {
+  background: #fffdf6;
+  border: 2px solid #20263c;
+  border-radius: 0;
+  box-shadow: 4px 4px 0 rgba(32, 38, 60, 0.14);
+}
+
+body[data-theme="pixel"] .paper-card:hover,
+body[data-theme="pixel"] .exp-card:hover,
+body[data-theme="pixel"] .mini-card:hover,
+body[data-theme="pixel"] .service-tile:hover {
+  border-color: #e0313f;
+  box-shadow: 6px 6px 0 rgba(32, 38, 60, 0.14);
+}
+
+body[data-theme="pixel"] .mini-card {
+  border-left: 5px solid #e0313f;
+}
+
+body[data-theme="pixel"] .paper-image-container img {
+  image-rendering: pixelated;
+}
+
+body[data-theme="pixel"] .paper-btn {
+  background: #fffcf3;
+  border: 2px solid #20263c;
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 0.98rem;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 0 rgba(32, 38, 60, 0.16);
+}
+
+body[data-theme="pixel"] .paper-btn:hover {
+  background: #ffe3e0;
+  border-color: #e0313f;
+  color: #e0313f;
+}
+
+body[data-theme="pixel"] .paper-btn-primary {
+  background: #ffd23f;
+  border-color: #20263c;
+  color: #20263c;
+}
+
+body[data-theme="pixel"] .paper-btn-primary:hover {
+  background: #ffe27a;
+  color: #20263c;
+}
+
+body[data-theme="pixel"] .paper-btn-secondary {
+  background: #fffcf3;
+  color: #e0313f;
+}
+
+body[data-theme="pixel"] .paper-toggle {
+  background: #fffcf3;
+}
+
+body[data-theme="pixel"] .paper-toggle-btn.is-active {
+  background: #20263c;
+  color: #fffcf3;
+  box-shadow: none;
+}
+
+body[data-theme="pixel"] .conf-badge,
+body[data-theme="pixel"] .ccf-badge,
+body[data-theme="pixel"] .tag-badge,
+body[data-theme="pixel"] .metric-badge,
+body[data-theme="pixel"] .tile-year-pill,
+body[data-theme="pixel"] .paper-row-year {
+  border-radius: 0;
+}
+
+body[data-theme="pixel"] .paper-detail {
+  background: #f6f0de;
+  border-left: 4px solid #e0313f;
+}
+
+body[data-theme="pixel"] .collab-callout {
+  border: 2px solid #20263c;
+  border-left: 5px solid #2456d6;
+  border-radius: 0;
+  box-shadow: 3px 3px 0 rgba(32, 38, 60, 0.12);
+}
+
+body[data-theme="pixel"] .bib-modal-box {
+  border: 3px solid #20263c;
+  box-shadow: 6px 6px 0 rgba(32, 38, 60, 0.14);
+}
+
+body[data-theme="pixel"] .bib-modal-head {
+  border-bottom: 2px solid #20263c;
+}
+
+body[data-theme="pixel"] .paper-no-results {
+  border-style: solid;
+}
+
+body[data-theme="pixel"] .journal-chip,
+body[data-theme="pixel"] .workshop-item {
+  background: #fffcf3;
+  border: 2px solid #20263c;
+  border-radius: 0;
+  box-shadow: 2px 2px 0 rgba(32, 38, 60, 0.14);
+  color: #20263c;
+}
+
+body[data-theme="pixel"] .grants-item,
+body[data-theme="pixel"] .grants-type {
+  border-radius: 0;
+}
+
+body[data-theme="pixel"] .journal-chip:hover {
+  background: #ffe3e0;
+  border-color: #e0313f;
+}
+
+body[data-theme="pixel"] .workshop-item {
+  border-left: 5px solid #e0313f;
+}
+
+body[data-theme="pixel"] .paper-row-title {
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1.12rem;
+  text-transform: none;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+body[data-theme="pixel"] .paper-row-authors,
+body[data-theme="pixel"] .paper-row-venue {
+  font-family: "VT323", "Courier New", monospace;
+  font-size: 1.02rem;
+  text-transform: none;
+}

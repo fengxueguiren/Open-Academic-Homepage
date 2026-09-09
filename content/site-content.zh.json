@@ -1,0 +1,91 @@
+{
+  "about": {
+    "title": "🌟 关于我",
+    "paragraphs": [
+      "你好！我是 Quanmin Wei（韦全敏），[西南交通大学](https://swjtu.edu.cn/) 计算机科学与技术专业四年级博士生，师从 [Penglin Dai 教授](https://itsgroups.github.io/)。我已在 AAAI 2026、AAAI 2025、NeurIPS 2025、TMM、TITS 和 INS 等会议与期刊上发表论文。",
+      "我的研究处于计算机视觉与智能交通的交叉领域，重点关注以下方向："
+    ],
+    "points": [
+      {
+        "label": "自动驾驶",
+        "description": "协作感知（Collaborative Perception）与协作式驾驶自动化相关课题。"
+      },
+      {
+        "label": "计算机视觉",
+        "description": "三维目标检测（3D Object Detection）相关课题。"
+      }
+    ],
+    "note": "📬 如果你对我的研究感兴趣，欢迎通过邮件联系我，一起讨论或合作。邮箱：[wqm@my.swjtu.edu.cn](mailto:wqm@my.swjtu.edu.cn)！"
+  },
+  "news": {
+    "title": "🔥 新闻",
+    "items": [
+      { "date": "2026.04", "text": "一篇论文被 IEEE Transactions on Multimedia（TMM）接收。" },
+      { "date": "2025.11", "text": "一篇论文被 AAAI 2026 接收。" },
+      { "date": "2024.10", "text": "一篇论文被 AAAI 2025 接收，并被选为 **Oral 口头报告**。" }
+    ]
+  },
+  "workingPapers": {
+    "title": "工作论文",
+    "items": []
+  },
+  "experience": {
+    "title": "💻 实习与工作经历",
+    "items": []
+  },
+  "education": {
+    "title": "📖 教育经历",
+    "items": [
+      {
+        "title": "计算机科学博士",
+        "date": "2023 - 至今",
+        "organization": "西南交通大学",
+        "description": "导师：Penglin Dai 教授。研究方向：协作感知、三维视觉、自动驾驶。"
+      }
+    ]
+  },
+  "honors": {
+    "title": "🏅 荣誉与获奖",
+    "items": [
+      { "date": "2025.10", "text": "西南交通大学优秀研究生" },
+      { "date": "2025.07", "text": "中国高校计算机大赛·网络技术挑战赛西南赛区三等奖" },
+      { "date": "2025.06", "text": "2023–2025 年度“两优一先”优秀共产党员" },
+      { "date": "2023.03", "text": "优秀毕业研究生" },
+      { "date": "2020.12", "text": "第二届广西高校人工智能设计大赛一等奖" },
+      { "date": "2019.03", "text": "自治区人民政府励志奖学金" },
+      { "date": "2018.07", "text": "第十一届中国大学生信息安全竞赛三等奖" },
+      { "date": "2018.05", "text": "第四届网络空间安全技术大赛三等奖" }
+    ]
+  },
+  "services": {
+    "title": "🤝 学术服务",
+    "conferenceHeading": "会议审稿",
+    "conferences": [
+      { "name": "AAAI", "years": ["2027", "2026"], "fullName": "AAAI Conference on Artificial Intelligence" },
+      { "name": "ACM MM", "years": ["2024"], "fullName": "ACM Multimedia" }
+    ],
+    "other": [
+      {
+        "type": "journal",
+        "title": "期刊审稿",
+        "items": [
+          { "name": "Pattern Recognition", "abbr": "PR" },
+          { "name": "Neural Networks", "abbr": "NN" },
+          { "name": "Knowledge and Information Systems", "abbr": "KAIS" },
+          { "name": "Journal of King Saud University Computer and Information Sciences", "abbr": "JKSU-CIS" },
+          { "name": "Discover Artificial Intelligence" },
+          { "name": "International Journal of Data Science and Analytics", "abbr": "IJDSA" },
+          { "name": "Cluster Computing" }
+        ]
+      }
+    ]
+  },
+  "grants": {
+    "title": "🏆 基金与项目",
+    "items": []
+  },
+  "teaching": {
+    "title": "📚 助教经历",
+    "items": []
+  }
+}

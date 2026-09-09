@@ -1,0 +1,73 @@
+{
+  "avatar": "images/avatar.jpg",
+  "avatarAlt": "Your Name avatar",
+  "name": "Your Name (中文姓名)",
+  "role": "Ph.D. Candidate in Computer Science @ University Name",
+
+  "affiliation": {
+    "name": "University Name",
+    "department": "Department / School Name",
+    "url": "https://www.university.edu/"
+  },
+  "location": "City, Country",
+
+  "researchLabel": "Research",
+  "research": [
+    "Research Area 1",
+    "Research Area 2",
+    "Research Area 3"
+  ],
+
+  "interestsLabel": "Interests",
+  "interests": [
+    "Hobby 1",
+    "Hobby 2"
+  ],
+
+  "other": [
+    { "label": "Office", "value": "Building X, Room 512" },
+    { "label": "Phone", "value": "+00 000 0000" }
+  ],
+
+  "quickLinks": [
+    { "type": "email", "href": "mailto:you@example.edu", "label": "Email" },
+    { "type": "scholar", "href": "https://scholar.google.com/citations?user=YOUR_ID", "label": "Scholar" },
+    { "type": "github", "href": "https://github.com/your-username", "label": "GitHub" },
+    { "type": "cv", "href": "files/cv.pdf", "label": "CV" },
+    { "type": "twitter", "href": "https://x.com/your-username", "label": "Twitter", "show": false },
+    { "type": "publications", "href": "#publications", "label": "Publications" }
+  ],
+
+  "show": {
+    "affiliation": true,
+    "location": true,
+    "research": true,
+    "interests": true,
+    "other": true
+  },
+
+  "localized": {
+    "en": {
+      "role": "Ph.D. Candidate in Computer Science @ University Name",
+      "affiliation": {
+        "name": "University Name",
+        "department": "Department / School Name",
+        "url": "https://www.university.edu/"
+      },
+      "location": "City, Country",
+      "researchLabel": "Research",
+      "interestsLabel": "Interests"
+    },
+    "zh": {
+      "role": "XX大学计算机科学博士候选人",
+      "affiliation": {
+        "name": "XX大学",
+        "department": "学院/系名称",
+        "url": "https://www.university.edu/"
+      },
+      "location": "城市，国家",
+      "researchLabel": "研究方向",
+      "interestsLabel": "兴趣爱好"
+    }
+  }
+}

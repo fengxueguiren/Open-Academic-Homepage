@@ -1,0 +1,139 @@
+{
+  "about": {
+    "title": "🌟 关于我",
+    "paragraphs": [
+      "你好！我是 **中文姓名（Your Name）**，[XX大学](https://www.university.edu/)计算机科学博士生，导师为 [Advisor Name 教授](https://advisor-homepage.example.com/)。研究方向包括……",
+      "我的研究主要涉及以下方向："
+    ],
+    "points": [
+      {
+        "label": "研究方向一",
+        "description": "该研究方向的简要介绍。"
+      },
+      {
+        "label": "研究方向二",
+        "description": "该研究方向的简要介绍。"
+      }
+    ],
+    "note": "📬 欢迎通过邮件联系我，一起讨论或合作：[you@example.edu](mailto:you@example.edu)。"
+  },
+  "news": {
+    "title": "🔥 新闻",
+    "items": [
+      { "date": "2026.04", "text": "一篇论文被 **IEEE TMM** 接收。" },
+      { "date": "2025.11", "text": "一篇论文被 **AAAI 2026** 接收。" },
+      { "date": "2024.10", "text": "一篇论文被 AAAI 2025 接收，并被选为 **Oral 口头报告**。" }
+    ]
+  },
+  "workingPapers": {
+    "title": "工作论文",
+    "items": [
+      {
+        "title": "Example Working Paper Title",
+        "authors": [
+          { "name": "Your Name", "equal": true },
+          { "name": "Coauthor", "equal": true },
+          { "name": "Advisor" }
+        ],
+        "status": "投稿 XXXX 2026 审稿中 · arXiv 预印本"
+      }
+    ]
+  },
+  "experience": {
+    "title": "💻 实习与工作经历",
+    "items": [
+      {
+        "title": "研究科学家实习生",
+        "date": "2025.06 - 2025.09",
+        "organization": "Example Company · 研究团队",
+        "logo": "images/org-placeholder.svg",
+        "logoAlt": "Example Company Logo",
+        "description": "工作内容简介……"
+      }
+    ]
+  },
+  "education": {
+    "title": "📖 教育经历",
+    "items": [
+      {
+        "title": "计算机科学博士",
+        "date": "2023 - 至今",
+        "organization": "XX大学",
+        "description": "导师：Advisor Name 教授。研究方向：……"
+      },
+      {
+        "title": "计算机科学学士",
+        "date": "2019 - 2023",
+        "organization": "XX大学",
+        "description": "简介……"
+      }
+    ]
+  },
+  "honors": {
+    "title": "🏅 荣誉与获奖",
+    "items": [
+      { "date": "2025.10", "text": "XX大学优秀研究生" },
+      { "date": "2024.06", "text": "国家奖学金" }
+    ]
+  },
+  "services": {
+    "title": "🤝 学术服务",
+    "conferenceHeading": "会议审稿",
+    "conferences": [
+      { "name": "AAAI", "years": ["2027", "2026"], "fullName": "AAAI Conference on Artificial Intelligence" },
+      { "name": "ACM MM", "years": ["2024"], "fullName": "ACM Multimedia" }
+    ],
+    "other": [
+      {
+        "type": "journal",
+        "title": "期刊审稿",
+        "items": [
+          { "name": "Pattern Recognition", "abbr": "PR", "url": "https://www.sciencedirect.com/journal/pattern-recognition" },
+          { "name": "Neural Networks", "abbr": "NN" }
+        ]
+      },
+      {
+        "type": "workshop",
+        "title": "研讨会组织",
+        "items": [
+          {
+            "name": "具身智能示例研讨会",
+            "role": "联合组织",
+            "venue": "CVPR 2025",
+            "year": "2025"
+          }
+        ]
+      }
+    ]
+  },
+  "grants": {
+    "title": "🏆 基金与项目",
+    "items": [
+      {
+        "type": "grant",
+        "title": "示例基金项目名称",
+        "role": "共同负责人（Co-PI）",
+        "funder": "国家自然科学基金委员会",
+        "grantNumber": "00000000",
+        "period": "2024 - 2027",
+        "amount": "¥500,000",
+        "status": "在研",
+        "url": "https://project-page.example.com/"
+      },
+      {
+        "type": "project",
+        "title": "示例企业合作项目",
+        "role": "参与者",
+        "funder": "Example Company",
+        "period": "2022 - 2024",
+        "status": "已结题"
+      }
+    ]
+  },
+  "teaching": {
+    "title": "📚 助教经历",
+    "items": [
+      { "date": "2025 春", "text": "CS000：计算机视觉导论（助教）" }
+    ]
+  }
+}

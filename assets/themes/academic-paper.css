@@ -1,0 +1,211 @@
+/* ==========================================================================
+   ACADEMIC PAPER THEME
+   Warm cream paper, ink-brown text and oxblood accents with a classical
+   serif voice. Applied when <body data-theme="academic-paper">.
+   ========================================================================== */
+
+body[data-theme="academic-paper"] {
+  --font-body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-heading: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --primary-text: #2d2118;
+  --secondary-text: #4a3a2a;
+  --muted-text: #77664f;
+
+  --accent-color: #8a3324;
+  --accent-hover: #a23d2a;
+  --accent-bg: #f7ece3;
+  --accent-border: #e1c4ad;
+  --link-color: #8a3324;
+
+  --border-color: #c9b795;
+  --border-light: #dccdb2;
+  --bg-page: #f3ecdd;
+  --card-bg: #fdfaf2;
+  --card-inner-bg: #fdfaf2;
+  --callout-bg: #f7efe1;
+  --callout-border: #dccdb2;
+  --callout-text: #4a3a2a;
+
+  --glow-a: 148, 83, 45;
+  --glow-b: 138, 51, 36;
+  --glow-c: 125, 95, 50;
+}
+
+body[data-theme="academic-paper"] {
+  background-image:
+    radial-gradient(at 18% 8%, rgba(148, 83, 45, 0.05) 0px, transparent 44%),
+    radial-gradient(at 85% 15%, rgba(138, 51, 36, 0.04) 0px, transparent 44%),
+    repeating-linear-gradient(90deg, rgba(116, 88, 42, 0.012) 0px, rgba(116, 88, 42, 0.012) 1px, transparent 1px, transparent 4px),
+    repeating-linear-gradient(0deg, rgba(116, 88, 42, 0.012) 0px, rgba(116, 88, 42, 0.012) 1px, transparent 1px, transparent 4px);
+}
+
+body[data-theme="academic-paper"] .site-nav {
+  background: rgba(253, 250, 242, 0.96);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid #d3c2a4;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.6), 0 4px 10px rgba(90, 64, 32, 0.08);
+}
+
+body[data-theme="academic-paper"] .nav-links a.active {
+  box-shadow: none;
+}
+
+body[data-theme="academic-paper"] .theme-toggle {
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+body[data-theme="academic-paper"] .lang-select,
+body[data-theme="academic-paper"] .paper-search {
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+body[data-theme="academic-paper"] .paper-row-year {
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .paper-venue-corner {
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .journal-chip,
+body[data-theme="academic-paper"] .workshop-item {
+  background: #fffef9;
+  border-color: #d3c2a4;
+  border-radius: 2px;
+  box-shadow: none;
+}
+
+body[data-theme="academic-paper"] .grants-item {
+  background: #fffef9;
+  border-color: #d3c2a4;
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .main-container {
+  background: #fdfaf2;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid #d3c2a4;
+  border-radius: 4px;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7),
+    0 10px 28px -12px rgba(90, 64, 32, 0.18);
+}
+
+body[data-theme="academic-paper"] .profile-header {
+  border-bottom-color: #d3c2a4;
+}
+
+body[data-theme="academic-paper"] .profile-avatar {
+  border: 2px solid #d3c2a4;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+body[data-theme="academic-paper"] .section-title {
+  border-bottom-color: #c2af8c;
+}
+
+body[data-theme="academic-paper"] .quick-link {
+  background: #fffdf8;
+  border-color: #d3c2a4;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+body[data-theme="academic-paper"] .modern-list-date {
+  border-radius: 4px;
+  letter-spacing: 0.02em;
+}
+
+body[data-theme="academic-paper"] .collab-callout {
+  background: #f7efe1;
+  border-color: #d3c2a4;
+  border-left: 3px solid #8a3324;
+  border-radius: 4px;
+}
+
+body[data-theme="academic-paper"] .paper-card,
+body[data-theme="academic-paper"] .exp-card,
+body[data-theme="academic-paper"] .mini-card,
+body[data-theme="academic-paper"] .service-tile {
+  background: #fffef9;
+  border-color: #d3c2a4;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(100, 70, 35, 0.05);
+}
+
+body[data-theme="academic-paper"] .paper-card:hover,
+body[data-theme="academic-paper"] .exp-card:hover,
+body[data-theme="academic-paper"] .mini-card:hover,
+body[data-theme="academic-paper"] .service-tile:hover {
+  border-color: #b9a37d;
+  box-shadow: 0 6px 16px -6px rgba(100, 70, 35, 0.12);
+}
+
+body[data-theme="academic-paper"] .paper-image-container {
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .paper-btn,
+body[data-theme="academic-paper"] .paper-toggle-btn,
+body[data-theme="academic-paper"] .paper-toggle {
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .paper-btn {
+  background: #fdfaf2;
+  border-color: #d3c2a4;
+  box-shadow: none;
+}
+
+body[data-theme="academic-paper"] .paper-btn-primary {
+  background: #2f241a;
+  border-color: #2f241a;
+  color: #fdf6e9;
+}
+
+body[data-theme="academic-paper"] .paper-btn-primary:hover {
+  background: #443324;
+  border-color: #443324;
+  color: #fff8eb;
+}
+
+body[data-theme="academic-paper"] .paper-btn-secondary {
+  background: #fdfaf2;
+  border-color: #d8b7a4;
+  color: #8a3324;
+}
+
+body[data-theme="academic-paper"] .paper-btn-secondary:hover {
+  background: #f7ece3;
+  border-color: #8a3324;
+}
+
+body[data-theme="academic-paper"] .conf-badge,
+body[data-theme="academic-paper"] .ccf-badge,
+body[data-theme="academic-paper"] .tag-badge,
+body[data-theme="academic-paper"] .metric-badge {
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .paper-detail {
+  background: #f7f0e2;
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .bib-modal-box {
+  border-radius: 4px;
+}
+
+body[data-theme="academic-paper"] .bib-pre {
+  border-radius: 2px;
+}
+
+body[data-theme="academic-paper"] .service-tile .tile-year-pill {
+  border-radius: 2px;
+}
