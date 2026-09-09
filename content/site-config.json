@@ -18,9 +18,9 @@
     "switchable": true
   },
   "analytics": {
-    "enabled": false,
+    "enabled": true,
     "provider": "google",
-    "site": ""
+    "site": "G-W1L9EYHDDF"
   },
   "theme": {
     "default": "burgundy",
