@@ -5,7 +5,7 @@ BibTeX files, and the site renders itself. No Node.js, no build step, no HTML
 editing required for daily content updates.
 
 
-Demo: [https://weiquanmin.github.io/][https://weiquanmin.github.io/]
+Demo: https://weiquanmin.github.io/
 ---
 
 ## ✨ Key Features
