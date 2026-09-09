@@ -1695,18 +1695,21 @@
       if (!analytics || analytics.enabled !== true || !analytics.site) return;
 
       if (analytics.provider === "google" || analytics.provider === "gtag" || analytics.provider === "ga4") {
-        // Google Analytics 4 via gtag.js
+        // Google Analytics 4 via gtag.js (official snippet order: loader first, then inline config)
         const measurementId = analytics.site;
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { window.dataLayer.push(arguments); }
-        window.gtag = gtag;
-        gtag("js", new Date());
-        gtag("config", measurementId);
-
         const loader = document.createElement("script");
         loader.async = true;
         loader.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(measurementId)}`;
         document.head.appendChild(loader);
+
+        const inline = document.createElement("script");
+        inline.textContent = [
+          "window.dataLayer = window.dataLayer || [];",
+          "function gtag(){dataLayer.push(arguments);}",
+          "gtag('js', new Date());",
+          `gtag('config', ${JSON.stringify(measurementId)});`
+        ].join("\n");
+        document.head.appendChild(inline);
       } else {
         const script = document.createElement("script");
         script.async = true;
