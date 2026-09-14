@@ -6,6 +6,42 @@ editing required for daily content updates.
 
 
 Demo: https://weiquanmin.github.io/
+
+<p align="center">
+  <img
+      src="images/screenshot-information.png"
+      alt="Academic Homepage Screenshot"
+      width="800"
+  />
+</p>
+
+<details>
+  <summary>📷 Click to view more screenshots</summary>
+  <p align="center">
+    <img
+        src="images/screenshot-information2.png"
+        alt="Academic Homepage Screenshot 2"
+        width="800"
+    />
+  </p>
+
+  <p align="center">
+    <img
+        src="images/screenshot-news_and_pubs.png"
+        alt="Academic Homepage News"
+        width="800"
+    />
+  </p>
+
+  <p align="center">
+    <img
+        src="images/screenshot-bib.png"
+        alt="Academic Homepage Screenshot Bib"
+        width="800"
+    />
+  </p>
+</details>
+
 ---
 
 ## ✨ Key Features
